@@ -1,4 +1,4 @@
-# Wikipedia Real-Time Monitoring Dashboard
+# Wikipedia Edit Streaming Analytics
 
 ![Pipeline Image](images/pipeline.png)
 *Illustration of the data pipeline from Wikipedia streaming to Power BI dashboard.*
