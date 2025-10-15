@@ -52,19 +52,16 @@ The data pipeline is organized as follows:
 
 4. **Power BI Dashboard**
 
-   * Connects to SQL Server and imports `wiki_changes`, `TypeChangeMapping`, and `NamespaceMapping`.
-   * Visualizes:
 
-     * Top contributors
-     * Type of changes
-     * Bot vs Human edits.
-     * Activity per language
-     * Breakdown of edits py page type
-     
-   * Provides filters and interactive insights.
+
+* Interactive Power BI dashboard showing:
+
+  * Number of edits in the last 5 minutes (gauges).
+  * Distribution of edits by type and namespace.
+  * Bot vs Human edits comparison.
+  * Filters and slicers for specific articles or namespaces.
 
 ![Dashboard Image](images/dashboard.png)
-
 ---
 
 
@@ -105,16 +102,7 @@ python data_pipeline.py
 
 
 
-## Dashboard
 
-* Interactive Power BI dashboard showing:
-
-  * Number of edits in the last 5 minutes (gauges).
-  * Distribution of edits by type and namespace.
-  * Bot vs Human edits comparison.
-  * Filters and slicers for specific articles or namespaces.
-
-![Dashboard Image](images/dashboard.png)
 
 ---
 
